@@ -12,6 +12,9 @@ node series_03.js
 
 Explanation:
 
+The functions mkdir, read, write will be excuted in series, after that, funciton done will be excuted. 
+
+
 series_01.js, using async.series([mkdir, read, write], done);
 
 
